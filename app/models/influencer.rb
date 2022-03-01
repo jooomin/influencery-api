@@ -1,3 +1,4 @@
 class Influencer < ApplicationRecord
-  belongs_to :platform, :influencer_tag
+  belongs_to :platform
+  belongs_to :influencer_tag
 end
